@@ -1,0 +1,326 @@
+/*==================== MAIN ==================*/
+
+body {
+    min-width: 320px;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+h1 {
+    font-size: 48;
+    color: #735440;
+}
+
+html, body{
+    height: 100%;
+}
+
+.lives_bg{
+    position: absolute;
+    width: 2920px;
+    height: 850px;
+}
+
+.play_b{
+    position: relative;
+    top: 685px;
+    left: 575px;
+    z-index: 1;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*==================== MAIN ==================*/
+
+/*==================== MAIN CLASSES =================*/
+
+main.main{
+    position: absolute;
+    top: 850px;
+    
+}
+
+main.main2{
+    background-color: #f7f7f7;
+    width: 2000px;
+    position: absolute;
+    top: 1150px;
+}
+
+main.main3{
+    flex: 1 1 auto;
+    width: 2000px;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 2300px;
+}
+
+/*==================== MAIN CLASSES =================*/
+
+/*==================== TABLE SETINGS =================*/
+
+.col-md-6 h1{
+    position: relative;
+    top: 140px ;
+    left: 400px;
+    font-size: 64px;
+    color: #324950;
+    font-weight: 700;
+}
+
+.col-md-6 p{
+    position: relative;
+    top: 25px;
+    left: 410px;
+    font-size: 20px;
+    width: 500px;
+}
+
+.col-md-6 img{
+    position: relative;
+    left: 20px;
+}
+
+.col-md-6 .dots img{
+    position: relative;
+    top: 145px;
+    left: 410px;
+}
+
+.col-md-6 .p-g img{
+    position: relative;
+    left: 360px;
+}
+
+.col-md-6 .ms_h h1{
+    position: relative;
+    left: 60px;
+    font-weight: 700;
+}
+
+.col-md-6 .text_ms p{
+    position: relative;
+    top: 150px;
+    left: 60px;
+}
+
+.col-md-6 .dots-ms img{
+    position: relative;
+    top: 140px;
+    left: 60px;
+}
+
+.mid-bottom .row{
+    position: relative;
+    top: -40px;
+}
+
+.h1_A-m h1{
+    font-size: 64px;
+    color: #324950;
+    padding-top: 70px;
+    position: relative;
+    left: 590px;
+    font-weight: 700;
+
+}
+
+.img-mul{
+    position: relative;
+    left: 960px;
+}
+
+.img-hlop img{
+    position: relative;
+    left: 420px;
+}
+
+.h3-hlop h3{
+    font-size: 24px;
+    color: #57984C;
+    position: relative;
+    left: 480px;
+    top: -25px;
+    text-decoration: underline;
+    text-underline-offset: 30px; /* Отступ от текста */
+    text-decoration-thickness: 1px; /* Толщина линии */
+
+
+}
+
+.p-hlop p{
+    position: relative;
+    top: 5px;
+    left: 285px;
+    text-align: center;
+}
+
+.img-pom img{
+    position: relative;
+    left: 200px;
+}
+
+.h3-pom h3{
+    font-size: 24px;
+    color: #57984C;
+    position: relative;
+    left: 220px;
+    top: 5px;
+    text-decoration: underline;
+    text-underline-offset: 30px; /* Отступ от текста */
+    text-decoration-thickness: 1px; /* Толщина линии */
+
+}
+
+.p-pom p{
+    position: relative;
+    top: 35px;
+    left: 0px;
+    text-align: center;
+}
+
+.img-son img{
+    position: relative;
+    top: 40px;
+    left: -100px;
+}
+
+.h3-son h3{
+    font-size: 24px;
+    color: #57984C;
+    position: relative;
+    left: -60px;
+    top: 25px;
+    text-decoration: underline;
+    text-underline-offset: 30px; /* Отступ от текста */
+    text-decoration-thickness: 1px; /* Толщина линии */
+
+}
+
+.p-son p{
+    position: relative;
+    top: 55px;
+    left: -275px;
+    text-align: center;
+}
+
+/*==================== TABLE SETINGS =================*/
+
+/*==================== PRODUCTS ======================*/
+
+.Wheat{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 174px;
+}
+
+.Wheat p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.C_Wm{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.C_Wm p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.clov{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.clov p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.C_Sun{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.C_Sun p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.tomato{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.tomato p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.E_plant{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.E_plant p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+.Ort_SunF{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 43px;
+    margin-left: 120px;
+}
+
+.Ort_SunF p{
+    font-size: 20px;
+    color: #324950;
+    margin-top: 15px;
+}
+
+/*==================== PRODUCTS ======================*/
